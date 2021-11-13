@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: "Build app"
-        run: npm* start 
+        run: npm run dev
 
       - name: "Run tests"
         run: npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
