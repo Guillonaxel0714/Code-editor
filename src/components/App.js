@@ -7,7 +7,7 @@ function App() {
   const [css, setCss] = useState(`.rectangle{
     width: 200px;
     height: 100px;
-    background-color: black;
+    background-color: red;
   }`, '')
   const [js, setJs] = useState('', '')
   const [srcDoc, setSrcDoc] = useState('')

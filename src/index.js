@@ -5,6 +5,7 @@ import App from './components/App';
 
 ReactDOM.render(
   <React.StrictMode>
+    <p>{`Hello ${process.env.REACT_APP_NAME}`}</p>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
